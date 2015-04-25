@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8">
+    <style>
+        body{
+            font-size: 12px;
+            width: 256px;
+        }
+        .button{
+            padding: 4px;
+            margin: 2px;
+            cursor: pointer;
+
+            background: #710B2F;
+            color: white;
+            text-align: center;
+
+            box-shadow: inset 0 1px 0 rgba(255,255,255,.6), 0 1px 1px rgba(0,0,0,.6);
+        }
+        .button:hover{
+            background: #840F38;
+        }
+        select{
+            width: 100%;
+        }
+    </style>
+    <script type="text/javascript" src="popup.js"></script>
+</head>
+<body>
+    <div>
+        <select id="action">
+            <option value="toMashtots">Աւանդական ուղղագրութիւն</option>
+            <option value="toSoviet">Սովետական ուղղագրություն</option>
+        </select>
+        <div>
+            <input type="checkbox" id="isonlyfields" />
+            <label for="isonlyfields">Միայն մուտքագրման դաշտերը</label>
+        </div>
+        <div>
+            <input type="checkbox" id="issavepages" />
+            <label for="issavepages">Յիշել փոխարկուած կայքերը</label>
+        </div>
+        <div id="convert" class="button">Փոխարկել</div>
+    </div>
+</body>
+</html>
