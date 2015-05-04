@@ -94,7 +94,7 @@ module.exports = function (grunt) {
 
     var clean = {
         dest: "dest/"
-    }
+    };
 
     grunt.initConfig({
         copy: copy,
