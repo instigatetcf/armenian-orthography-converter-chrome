@@ -19,7 +19,6 @@
         return false;
     }
 
-
     function replaceInDomTimeout(element, exeptions, filters, callback, attributes) {
         setTimeout(function () {
             replaceInDom(element, exeptions, filters, callback, attributes);
@@ -102,18 +101,18 @@
         }
     }
 
-    function toMashtotsDom(element, exeptions, filters) {
+    function sovietToMashtotsDom(element, exeptions, filters) {
         replaceInDom(element, exeptions, filters, function (text) {
-            window.toMashtots(text);
+            return window.mashtots.sovietToMashtots(text);
         });
     }
 
-    function toSovietDom(element, exeptions, filters) {
+    function mashtotsToSovietDom(element, exeptions, filters) {
         replaceInDom(element, exeptions, filters, function (text) {
-            window.toSoviet(text);
+            return window.mashtots.mashtotsToSovietDom(text);
         });
     }
 
-    window.mashtots.sovietToMashtotsDom = toMashtotsDom;
-    window.mashtots.mashtotsToSovietDom = toSovietDom;
+    window.mashtots.sovietToMashtotsDom = sovietToMashtotsDom;
+    window.mashtots.mashtotsToSovietDom = mashtotsToSovietDom;
 }(window));

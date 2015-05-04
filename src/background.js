@@ -2,10 +2,10 @@
     function convert(element){
         switch(localStorage.mashtotsAction) {
             case 'toMashtots':
-                mashtots.sovietToMashtots(element, undefined, filters);
+                mashtots.sovietToMashtotsDom(element, undefined, filters);
                 break;
             case 'toSoviet':
-                mashtots.mashtotsToSoviet(element, undefined, filters);
+                mashtots.mashtotsToSovietDom(element, undefined, filters);
                 break;
         }
     }

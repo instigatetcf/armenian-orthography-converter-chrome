@@ -19,7 +19,7 @@
     "content_scripts": [
         {
             "matches": ["http://*/*", "https://*/*"],
-            "js": ["mashtots.min.js", "background.js"]
+            "js": [@@files, "background.js"]
         }
     ]
 }

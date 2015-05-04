@@ -30,10 +30,10 @@
     }
     switch(mashtotsConfig.action) {
         case 'toMashtots':
-            mashtots.sovietToMashtots(document.body, undefined, filters);
+            mashtots.sovietToMashtotsDom(document.body, undefined, filters);
             break;
         case 'toSoviet':
-            mashtots.mashtotsToSoviet(document.body, undefined, filters);
+            mashtots.mashtotsToSovietDom(document.body, undefined, filters);
             break;
         case 'removeSavedData':
             localStorage.removeItem('mashtotsIsSavePages');
