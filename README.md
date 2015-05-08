@@ -6,7 +6,7 @@ Chrome extension based on https://github.com/instigatetcf/armenian-orthography-c
 
 To install unpacked extension open dist/ folder via chrome://extensions/ -> Load upacked extension.
 
-## Grunt tasks
+## Build
 
 Use following command to create prduction build.
 
