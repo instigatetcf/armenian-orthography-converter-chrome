@@ -2,6 +2,8 @@
 
 Chrome extension based on https://github.com/instigatetcf/armenian-orthography-converter/
 
+[![License](https://img.shields.io/badge/license-GPLv3-blue.svg?style=flat-square)](https://github.com/instigatetcf/armenian-orthography-converter/blob/master/LICENSE)
+
 ## Install
 
 To install unpacked extension open dist/ folder via chrome://extensions/ -> Load upacked extension.
