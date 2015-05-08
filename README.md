@@ -1,8 +1,10 @@
 # Armenian orthography converter Chrome extension
 
-## Files
+Extension based on https://github.com/instigatetcf/armenian-orthography-converter/
 
-To load unpacked extension open dist/ folder via chrome://extensions/ -> Load upacked extension.
+## Install
+
+To install unpacked extension open dist/ folder via chrome://extensions/ -> Load upacked extension.
 
 ## Grunt tasks
 
