@@ -1,6 +1,6 @@
 # Armenian orthography converter Chrome extension
 
-Extension based on https://github.com/instigatetcf/armenian-orthography-converter/
+Chrome extension based on https://github.com/instigatetcf/armenian-orthography-converter/
 
 ## Install
 
