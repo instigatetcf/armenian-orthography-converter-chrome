@@ -39,7 +39,7 @@
             convert(document.body);
         });
         document.addEventListener('change', function(e){
-            conver(e.target);
+            convert(e.target);
         }, true);
     }
 })();
